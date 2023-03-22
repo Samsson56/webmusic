@@ -1,17 +1,21 @@
 import React from 'react';
-
+import './Header.css';
+import pic from '../../assets/logo.jpg'
 const Header = () => {
   return (
     <div className="header">
         <div className='header__left'>
-            <img src="" alt='logo'/>
+            <img src={pic} alt='logo' />
             <h1>Web Music</h1>
         </div>
-        
-        <h4>Account</h4>
-        <h4>Music Languages</h4>
-        <h4>Sign up</h4>
-        <h4>Login</h4>  
+
+        <div className='header__right'>
+          <a href='account'><h4>Account</h4></a>
+          <h4>Music Languages</h4>    {/* dropdown list */}
+          <a href='login'><h4>Login</h4></a>
+          <a href='signup'><h4>Sign up</h4></a>
+        </div>
+
     </div>
   )
 }
