@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
-import { ReactDOM } from 'react';
 import './Login.css';
+import pic from '../../assets/logo.jpg'
 
 const Login = () => {
   const [errorMessages, setErrorMessages] = useState({});
@@ -76,6 +76,11 @@ const Login = () => {
   return (
     <div className="app">
       <div className="login-form">
+        <div className='form-head'>
+        <img src={pic} alt='logo' />
+         <h1>Web Music</h1>
+        </div>
+         
         <div className="title">Sign In</div>
         {isSubmitted === true ? (<div>User is successfully logged in</div>) : renderForm}
       </div>

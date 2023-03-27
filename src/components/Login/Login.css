@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 .app {
     font-family: sans-serif;
     display: flex;
@@ -42,6 +43,15 @@
     padding: 2rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
+  .form-head > img{
+    width: 40px;
+    height: 40px;
+  }
+
+  .form-head{
+    justify-content: center;
+    display: flex;
+  }
   
   .list-container {
     display: flex;
@@ -55,7 +65,8 @@
   .title {
     font-size: 25px;
     margin-bottom: 20px;
-    font-family: 'Alata',sans-serif;
+    font-family: 'Monserrat',sans-serif;
+    text-align: center;
   }
   
   .input-container {
@@ -64,4 +75,6 @@
     gap: 8px;
     margin: 10px;
     background-color: #f8f8f8;
+    border-radius: 10px;
+    padding: 20px 40px;
   }
