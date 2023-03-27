@@ -1,5 +1,5 @@
 import React, {useState,setState} from 'react';
-import {database} from '/firebase'
+import {database} from '../firebase'
 import {ref,push,child,update} from "firebase/database";
 import './Signup.css'
 function Signup() {
