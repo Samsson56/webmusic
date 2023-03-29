@@ -6,18 +6,22 @@ import Signup from './components/Signup/Signup';
 import Login from './components/Login/Login';
 import Errorpage from './components/Errorpage';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import MusicPlayer from './Pages/MusicPlayer';
 
 function App() {
   return (
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Header/>} />
+          <Route path="/" element={<MusicPlayer />} />
           <Route path="/account" element={<Header/>} />
           <Route path="/signup" element={<Signup/>} />
           <Route path="/login" element={<Login />} />
           <Route path="*" element={<Errorpage/>} />
         </Routes>
+        
       </BrowserRouter>
+      
+      
   );
 }
 
