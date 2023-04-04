@@ -33,7 +33,7 @@ a {
   margin-top: 7rem;
   margin-right: auto;
   margin-left: auto;
-  max-width: 30rem;
+  max-width: 60rem;
   background: #fff;
   border-radius: 1.25rem;
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.19),
@@ -115,6 +115,15 @@ a {
   align-items: center;
   justify-content: center;
   margin-bottom: 35px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background: #fff;
+  border-radius: 1.25rem;
+  -webkit-box-shadow: 0px 0px 4px 0px rgb(226, 191, 19);
+  -moz-box-shadow: 0px 0px 4px 0px rgb(185, 161, 39);
+  box-shadow: 0px 0px 4px 0px rgba(61,59,49,1);
+  width: 80%;
+  height: 10rem;
 }
 
 .music-player--controls .play-btn {
@@ -128,6 +137,7 @@ a {
   border-radius: 50%;
   box-shadow: 0 3px 6px rgba(33, 33, 33, 0.1), 0 3px 12px rgba(33, 33, 33, 0.15);
   transition: all 0.25s cubic-bezier(0.4, 0, 1, 1);
+  
 }
 
 .play-btn:focus {
@@ -201,7 +211,7 @@ a {
 .list {
   display: flex;
   margin: 0;
-  padding: 0;
+  border: 30% 30%;
   list-style-type: none;
 }
 
@@ -289,4 +299,14 @@ a {
   100% {
     background-position: 50px 50px;
   }
+}
+
+.custom-player {
+  display: flex;
+  
+}
+
+.custom-player-details {
+  width: calc(100vw - 225px);
+  
 }

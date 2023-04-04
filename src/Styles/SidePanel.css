@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.wrapper .sidebar{
+    background-color: black;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 225px;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+    height: 100vh;
+}
+
+/* .wrapper {
+  
+} */
+
+/* .wrapper .sidebar .profile{
+  margin-bottom: 30px;
+  text-align: center;
+} */
+
+/* .wrapper .sidebar .profile img{
+  display: block;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  margin: 0 auto;
+} */
+
+/* .wrapper .sidebar .profile h3{
+  color: #ffffff;
+  margin: 10px 0 5px;
+}
+
+.wrapper .sidebar .profile p{
+  color: rgb(206, 240, 253);
+  font-size: 14px;
+} */
+
+.wrapper .sidebar ul li a{
+  display: block;
+  padding: 13px 30px;
+  border-bottom: 1px solid #10558d;
+  color: rgb(241, 239, 237);
+  font-size: 20px;
+  position: relative;
+  font-family: "Monserrat",sans-serif;
+}
+
+.wrapper .sidebar ul li a .icon{
+  color: #dee4ec;
+  width: 30px;
+  display: inline-block;
+}
+
+.wrapper .sidebar ul li a:hover,
+.wrapper .sidebar ul li a.active{
+    color: #f64c08;
+
+    background:white;
+    border-right: 2px solid rgb(5, 68, 104);
+}
+
+.wrapper .sidebar ul li a:hover .icon,
+.wrapper .sidebar ul li a.active .icon{
+    color: #f64c08;
+}
+
+.wrapper .sidebar ul li a:hover:before,
+.wrapper .sidebar ul li a.active:before{
+    display: block;
+}

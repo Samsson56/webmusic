@@ -2,8 +2,8 @@ import React from 'react'
 import {useState,useEffect} from "react";
 import Header from '../components/Header/Header'
 import Player from '../components/Player/Player'
-import PlayerControls from '../components/PlayerCon/PlayerControls'
-import PlayerDetails from '../components/PlayerDet/PlayerDetails'
+
+import SidePanel from '../components/SidePanel/SidePanel';
 const MusicPlayer = () => {
     const [songs,setSongs] = useState([
         {
@@ -44,8 +44,7 @@ const MusicPlayer = () => {
       setCurrentSongIndex={setCurrentSongIndex} 
       nextSongIndex={nextSongIndex} 
       songs={songs} />
-      <PlayerControls />
-      <PlayerDetails />
+      
     </div>
   );
 }

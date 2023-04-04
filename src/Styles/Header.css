@@ -7,6 +7,8 @@
     align-items: center;
     color :white;
     background-color: black;
+    z-index: 2;
+    top: 0;
 }
 .header__left{
     flex: 0.4;

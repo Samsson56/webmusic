@@ -1,5 +1,5 @@
 import React, {useState,setState} from 'react';
-import './Signup.css'
+import '../../Styles/Signup.css'
 import pic from '../../assets/logo.jpg'
 function Signup() {
     
