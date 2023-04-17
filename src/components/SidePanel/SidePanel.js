@@ -56,8 +56,8 @@ const SidePanel = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="#">
-                            <span class="item">Messages</span>
+                        <a href='chat'>
+                            <span class="item">Chat</span>
                         </a>
                     </li>
                 </ul>
