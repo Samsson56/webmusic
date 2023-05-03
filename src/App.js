@@ -11,6 +11,7 @@ import MusicPlayer from './Pages/MusicPlayer';
 import Chat from './Pages/ChatRoom/Chat';
 
 function App() {
+  
   return (
       <BrowserRouter>
         <Routes>
