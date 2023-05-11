@@ -37,24 +37,10 @@ const SidePanel = () => {
                     </li>
                     <li>
                         <a href="#">
-                            <span class="item">Podcast</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
                             <span class="item">Playlist</span>
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
-                            <span class="item">Liked Songs</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="item">+ New Playlist</span>
-                        </a>
-                    </li>
+    
                     <li>
                         <a href='chat'>
                             <span class="item">Chat</span>

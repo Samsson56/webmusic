@@ -62,11 +62,12 @@
     font-size: 12px;
   }
   
-  .title {
+  .title > a {
     font-size: 25px;
     margin-bottom: 20px;
     font-family: 'Monserrat',sans-serif;
     text-align: center;
+    color: black;
   }
   
   .input-container {
