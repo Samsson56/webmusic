@@ -6,7 +6,7 @@ import pic from "../../assets/logo.jpg";
 
 const Login = () => {
   const CLIENT_ID = "20811cb4942748bb987dea4e20eeeed9";
-  const REDIRECT_URI = "http://localhost:3000/";
+  const REDIRECT_URI = "http://localhost:3000/music";
   const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize";
   const RESPONSE_TYPE = "token";
 

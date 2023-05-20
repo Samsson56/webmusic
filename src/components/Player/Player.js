@@ -68,7 +68,7 @@ function Player(props) {
         </p>
         <div className="music-player">
           <audio
-            src={require("../../assets/$orries.mp3")}
+            src={require("../../assets/invincible-ncs-release.mp3")}
             ref={audioElement}
           ></audio>
           <PlayerDetails song={props.songs[props.currentSongIndex]} />

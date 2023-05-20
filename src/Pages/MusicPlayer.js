@@ -8,22 +8,22 @@ import Music from '../components/music/Music';
 const MusicPlayer = () => {
     const [songs,setSongs] = useState([
         {
-            "title": "$orries",
-            "artist": "Peachy!",
-            "album": " Shiloh",
-            "track": "$orries",
-            "year": "1",
-            "img_src": "../../assets/$orries_Cover (front)_e.jpg",
-            "src": "../../assets/$orries.mp3"
+            "title": "Invincible [NCS Release]",
+            "artist": "DEAF KEV",
+            "album": "NCS",
+            "track": "Invincible [NCS Release]",
+            "year": "8",
+            "img_src": "../../assets/ncs-img1.jpg",
+            "src": "../../assets/invincible-ncs-release.mp3"
         },
         {
-            "title": "5:32pm",
-            "artist": "The Deli",
-            "album": "Vibes 2",
-            "track": "12",
-            "year": "",
-            "img_src": "../../assets/5 32pm_Cover (front)_e.jpg",
-            "src": "../../assets/5 32pm.mp3"
+            "title": "Sky High [NCS Release]",
+            "artist": "Elektronomia",
+            "album": "NCS",
+            "track": "Sky High [NCS Release]",
+            "year": "9",
+            "img_src": "../../assets/ncs-img2.jpg",
+            "src": "../../assets/sky-high-ncs-release.mp3"
         }]);
         const [currentSongIndex,setCurrentSongIndex] = useState(0);
         const [nextSongIndex,setNextSongIndex] = useState(currentSongIndex + 1);

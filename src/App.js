@@ -15,10 +15,10 @@ function App() {
   return (
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<MusicPlayer />} />
+          <Route path="/music" element={<MusicPlayer />} />
           <Route path="/account" element={<Header/>} />
           <Route path="/signup" element={<Signup/>} />
-          <Route path="/login" element={<Login />} />
+          <Route path="/" element={<Login />} />
           <Route path="C" element={<Errorpage/>} />
           <Route path="/chat" element={<Chat/>} />
         </Routes>
