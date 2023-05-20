@@ -4,7 +4,6 @@ import Header from '../components/Header/Header'
 import Player from '../components/Player/Player'
 
 import SidePanel from '../components/SidePanel/SidePanel';
-import Music from '../components/music/Music';
 const MusicPlayer = () => {
     const [songs,setSongs] = useState([
         {
@@ -45,8 +44,7 @@ const MusicPlayer = () => {
       setCurrentSongIndex={setCurrentSongIndex} 
       nextSongIndex={nextSongIndex} 
       songs={songs} />
-      {/* <SidePanel />
-      {/* <Music /> */}
+      {/* <SidePanel /> */}
       
     </div>
   );
