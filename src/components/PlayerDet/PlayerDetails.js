@@ -6,7 +6,7 @@ function PlayerDetails(props) {
       <div className="details-img">
         <img
           className="details-img--image"
-          src={require("../../assets/ncs-img1.jpg")}
+          src={props.song.img_src}
           alt={props.song.title}
         />
       </div>

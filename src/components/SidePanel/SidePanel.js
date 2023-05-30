@@ -31,7 +31,7 @@ const SidePanel = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="/album">
                             <span class="item">Albums</span>
                         </a>
                     </li>

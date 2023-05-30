@@ -7,6 +7,7 @@ import SidePanel from "../SidePanel/SidePanel";
 function Player(props) {
   const audioElement = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
+  const [soundFile, setSoundFile] = useState(null);
 
   useEffect(() => {
     if (isPlaying) {
@@ -55,7 +56,7 @@ function Player(props) {
             <img
               src={props.songs[props.nextSongIndex].img_src}
               alt={props.songs[props.nextSongIndex].title}
-              style={{ width: "4em", height: "auto" }}
+              style={{width: "4em", height: "auto" }}
             />
             <p>
               <b>{props.songs[props.nextSongIndex].title} </b>&nbsp; by &nbsp;
@@ -68,7 +69,7 @@ function Player(props) {
         </p>
         <div className="music-player">
           <audio
-            src={require("../../assets/invincible-ncs-release.mp3")}
+            src={props.songs[props.currentSongIndex].src}
             ref={audioElement}
           ></audio>
           <PlayerDetails song={props.songs[props.currentSongIndex]} />

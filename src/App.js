@@ -9,6 +9,7 @@ import Errorpage from './components/Errorpage';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import MusicPlayer from './Pages/MusicPlayer';
 import Chat from './Pages/ChatRoom/Chat';
+import Album from './Pages/Album';
 
 function App() {
   
@@ -18,6 +19,7 @@ function App() {
           <Route path="/music" element={<MusicPlayer />} />
           <Route path="/account" element={<Header/>} />
           <Route path="/signup" element={<Signup/>} />
+          <Route path="/album" element={<Album />}></Route>
           <Route path="/" element={<Login />} />
           <Route path="C" element={<Errorpage/>} />
           <Route path="/chat" element={<Chat/>} />

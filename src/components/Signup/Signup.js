@@ -1,6 +1,5 @@
 import React, {useState,setState} from 'react';
 import '../../Styles/Signup.css'
-import pic from '../../assets/logo.jpg'
 function Signup() {
     
     const [firstName, setFirstName] = useState(null);
@@ -37,7 +36,7 @@ function Signup() {
         <div className="signup">
             <div className="signup-body">
             <div>
-                <img className='img' src={pic} alt='logo' />
+                <img className='img' src={'/assets/logo.jpg'} alt='logo' />
                 <h1>Web Music</h1>
             </div>
                 <div className="username">
