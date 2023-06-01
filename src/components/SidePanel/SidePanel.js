@@ -11,11 +11,11 @@ const SidePanel = () => {
                
                 <ul>
                     <li>
-                        <a href="#" class="active">
+                        <a href="/music" class="active">
                             <span class="item">Home</span>
                         </a>
                     </li>
-                    <li>
+                    {/* <li>
                         <a href="#">
                             <span class="item">Library</span>
                         </a>
@@ -29,17 +29,17 @@ const SidePanel = () => {
                         <a href="#">
                             <span class="item">Songs</span>
                         </a>
-                    </li>
+                    </li> */}
                     <li>
                         <a href="/album">
                             <span class="item">Albums</span>
                         </a>
                     </li>
-                    <li>
+                    {/* <li>
                         <a href="#">
                             <span class="item">Playlist</span>
                         </a>
-                    </li>
+                    </li> */}
     
                     <li>
                         <a href='chat'>

@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react';
 import './Chat.css';
+import Header from '../../components/Header/Header'
 
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/firestore';
@@ -30,12 +31,15 @@ function Chat() {
 
   return (
     <div className="ChatTitle">
+      
       <header>
+      <Header />
         <h1>Chat Room</h1>
         <SignOut />
       </header>
 
       <section>
+      
         {user ? <ChatRoom /> : <SignIn />}
       </section>
 

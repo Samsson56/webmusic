@@ -1,6 +1,10 @@
 import React, {useState,setState} from 'react';
 import '../../Styles/Signup.css'
+import Header from '../../components/Header/Header'
+
+
 function Signup() {
+
     
     const [firstName, setFirstName] = useState(null);
     const [lastName, setLastName] = useState(null);
