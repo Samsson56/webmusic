@@ -8,12 +8,9 @@ const Header = () => {
             <h1>Web Music</h1>
         </div>
 
-        <div className='header__right'>
-          {/* <a href='account'><h4>Account</h4></a> */}
-          {/* <h4>Music Languages</h4>    dropdown list */}
-          <a href='login'><h4>Login</h4></a>
-          <a href='signup'><h4>Sign up</h4></a>
-        </div>
+        {/* <div className='header__right'>
+          
+        </div> */}
 
     </div>
   )
